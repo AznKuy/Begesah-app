@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Temukan cerita menarik dan bagikan kisahmu dengan dunia!</string>
+    <string name="title_welcome_page">Selamat datang di PostHere!</string>
+    <string name="title_signup_page">Daftar untuk berbagi cerita dan menemukan cerita baru dari orang lain.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Akses cerita favoritmu dan mulai berbagi.</string>
+    <string name="title_login_page">Masuk ke akunmu</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di PostHere.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="email_hint">Masukkan alamat email</string>
+    <string name="name_hint">Masukkan nama anda</string>
+    <string name="password_hint">Buat kata sandi</string>
+    <string name="have_account">Sudah memiliki akun?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="story_photo">story photo</string>
+    <string name="name_story">Name</string>
+    <string name="description_story">Description</string>
+    <string name="home">PostHere</string>
+    <string name="settings">settings</string>
+    <string name="belum_punya_akun">Belum memiliki akun?</string>
+    <string name="register">Daftar sekarang</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Galery</string>
+    <string name="upload">Upload</string>
+    <string name="description">Description</string>
+    <string name="description_hint">masukkan description</string>
+    <string name="empty_image_warning">Gambar tidak boleh kosong</string>
+    <string name="empty_description_warning">Description tidak boleh kosong</string>
+</resources>

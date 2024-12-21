@@ -1,0 +1,69 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!-- Gambar atau Foto Pengguna -->
+    <ImageView
+            android:id="@+id/ivPhoto"
+            android:transitionName="imageTransition"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/placeholder"
+            android:layout_marginHorizontal="8dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"/>
+
+    <!-- LinearLayout untuk ikon dan nama pengguna -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            tools:ignore="UseCompoundDrawables">
+
+        <!-- Ikon Pengguna -->
+        <ImageView
+                android:id="@+id/iconUser"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_person_24dp"
+                android:layout_marginEnd="6dp"/>
+
+        <!-- Nama Pengguna -->
+        <TextView
+                android:id="@+id/tvName"
+                android:transitionName="nameTransition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:text="@string/name_story"/>
+
+    </LinearLayout>
+
+    <!-- Deskripsi -->
+    <TextView
+            android:id="@+id/tvDescription"
+            android:transitionName="descriptionTransition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="@string/description"
+            android:textSize="14sp"
+            android:layout_marginStart="8dp"/>
+
+    <!-- ProgressBar -->
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+</LinearLayout>
